@@ -48,7 +48,7 @@ p {
 }
 
 .mining .main {
-    padding-bottom: 150px !important;
+    padding-bottom: 120px !important;
 }
 
 .mining .main .number {
@@ -220,11 +220,11 @@ p {
 footer.footer {
     position: fixed;
     bottom: -70px;
-    width: 600px;
+    max-width: 600px;
     transform: translate(-50%, -50%);
     left: 50%;
+    width: 100%;
 }
-
 .footer .icon-link {
     display: flex;
     justify-content: space-between;
@@ -292,7 +292,7 @@ footer.footer {
 }
 
 .home .main {
-    padding-bottom: 0px !important;
+    padding-bottom: 150px !important;
 }
 
 .home .main .head1 {
