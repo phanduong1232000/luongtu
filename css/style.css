@@ -1196,6 +1196,7 @@ footer.footer {
 }
 .profileEdit .main {
     padding: 0px 20px 30px 20px;
+    padding-bottom: 150px;
 }
 .profileEdit .main .avt{
     margin: 10px 0px 20px 0px;
