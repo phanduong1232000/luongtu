@@ -244,6 +244,7 @@ p {
     position: relative;
     bottom: -35px;
     display: block;
+    z-index: 100;
 }
 
 .footer .top-link img {
