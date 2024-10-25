@@ -224,6 +224,7 @@ footer.footer {
     transform: translate(-50%, -50%);
     left: 50%;
     width: 100%;
+    z-index: 1000;
 }
 .footer .icon-link {
     display: flex;
