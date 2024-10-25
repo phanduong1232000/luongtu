@@ -48,7 +48,7 @@ p {
 }
 
 .mining .main {
-    padding-bottom: 0px !important;
+    padding-bottom: 150px !important;
 }
 
 .mining .main .number {
@@ -217,6 +217,13 @@ p {
 ================FOOTER===================
 ================FOOTER===================
 ===========================================*/
+footer.footer {
+    position: fixed;
+    bottom: -70px;
+    width: 600px;
+    transform: translate(-50%, -50%);
+    left: 50%;
+}
 
 .footer .icon-link {
     display: flex;
@@ -286,7 +293,6 @@ p {
 
 .home .main {
     padding-bottom: 0px !important;
-    min-height: 80vh;
 }
 
 .home .main .head1 {
@@ -386,7 +392,7 @@ p {
     color: white;
     border: 1px solid #c5fa6f;
     color: #c5fa6f;
-    padding: 10px 10px;
+    padding: 10px 5px;
     text-align: center;
     margin: 5px;
     border-radius: 20px;
@@ -509,6 +515,7 @@ p {
     margin-bottom: 20px;
     margin-top: -10px;
     display: block;
+    color: black;
 }
 .signOut{
     background-color: #2e2e2f;
@@ -1327,7 +1334,6 @@ p {
 
 .invite .main {
     padding: 20px 30px 30px 30px;
-    min-height: 80vh;
 }
 .invite .main .text-title{
     font-size: 20px;
@@ -1376,6 +1382,7 @@ p {
     margin-left: 10px;
     margin-right: 20px;
     border-radius: 10px;
+    color: black;
 }
 
 /* ===============================profile============== */
@@ -1404,7 +1411,6 @@ p {
 
 .community .main {
     padding: 0px 0px 30px 0px;
-    min-height: 80vh;
 }
 .community .block1 {
     margin: 0px 25px;
@@ -1496,7 +1502,6 @@ p {
 
 .inviteFriend .main {
     padding: 20px 30px 30px 30px;
-    min-height: 80vh;
 }
 .inviteFriend .main .text-title{
     font-size: 20px;
@@ -1562,6 +1567,7 @@ p {
     display: block;
     margin-left: 10px;
     border-radius: 10px;
+    color: black;
 }
 .inviteFriend .main .code{
     background: black;
