@@ -3,7 +3,10 @@ body {
     color: white;
     font-family: "Inter", sans-serif;
 }
-
+a {
+    color: unset;
+    text-decoration: unset;
+}
 p {
     padding-bottom: 0px;
     margin-bottom: 0px;
@@ -240,6 +243,7 @@ p {
     margin: 0 auto;
     position: relative;
     bottom: -35px;
+    display: block;
 }
 
 .footer .top-link img {
@@ -262,7 +266,6 @@ p {
     max-width: 600px;
     margin: auto;
 }
-
 .home .header-top .nofi {
     width: 40px;
     height: 40px;
@@ -282,6 +285,7 @@ p {
 
 .home .main {
     padding-bottom: 0px !important;
+    min-height: 80vh;
 }
 
 .home .main .head1 {
@@ -371,7 +375,10 @@ p {
     text-align: center;
     font-weight: bold;
 }
-
+.home ul.nav.nav-pills.mb-3 li {
+    width: 22%;
+    margin-right: 3px;
+}
 .home .main .click-link {
     background: transparent;
     outline: transparent;
@@ -384,6 +391,7 @@ p {
     border-radius: 20px;
     width: 82px;
     font-size: 12px;
+    display: block;
 }
 
 /*  */
