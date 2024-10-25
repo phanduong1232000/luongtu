@@ -141,9 +141,9 @@ p {
 .mining .box .text-bottom .up {
     padding-bottom: 5px;
     left: 30px;
-    top: 87px;
+    top: 75px;
     position: absolute;
-    height: 100px;
+    height: 120px;
     object-fit: contain;
     min-width: 144px;
 }
@@ -192,6 +192,7 @@ p {
     border-radius: 20px;
     padding: 10px;
     background-color: #181819;
+    display: block;
 }
 
 .mining .box .text-bottom .clickme p {
@@ -257,6 +258,10 @@ footer.footer {
 
 .footer .top-link img {
     width: 100%;
+    object-fit: contain;
+    margin: auto;
+    height: 40px;
+    margin-left: 2px;
 }
 
 /* ====================================== */
@@ -376,6 +381,7 @@ footer.footer {
     border-radius: 20px;
     padding: 10px;
     background-color: #181819;
+    display: block;
 }
 
 .home .right-box .text-bottom .clickme p {
@@ -645,6 +651,7 @@ footer.footer {
 .wallet .main .box-item .left img{
     width: 25px;
     height: 25px;
+    object-fit: contain;
 }
 
 .wallet .main .box-item .item{
