@@ -329,7 +329,9 @@ footer.footer {
 
 .home .main .slide-left img {
     width: 99%;
-    object-fit: cover;
+    object-fit: contain;
+    border: 1px solid #c5fa6f4f;
+    border-radius: 20px;
 }
 
 /* ================= */
@@ -346,8 +348,9 @@ footer.footer {
 
 .home .main .slide-right img {
     width: 99%;
-    object-fit: cover;
-
+    object-fit: contain;
+    border: 1px solid #c5fa6f4f;
+    border-radius: 20px;
 }
 
 
@@ -642,6 +645,7 @@ footer.footer {
     width: 100%;
     font-size: 12px;
     font-weight: bold;
+    display: block;
 }
 .wallet .click-link.notActive{
     background: #2e2e2f ;
